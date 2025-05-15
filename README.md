@@ -248,7 +248,7 @@ It could be that Hungarian has [no concept of gender](https://en.wikipedia.org/w
 * given three webcam images of a book, create a MARC record
 
 ![](static/2025-05-15-123901.jpg)
-![](static/2025-05-15-123925.jpg
+![](static/2025-05-15-123925.jpg)
 
 ```
 =001  1234567890
