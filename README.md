@@ -241,7 +241,37 @@ It could be that Hungarian has [no concept of gender](https://en.wikipedia.org/w
 
 ### Multimodal models
 
-* Guess the data format from a picture: https://chat-ai.academiccloud.de/chat/eceb7fb0-2bee-48e8-8aff-4ede68111e53
+* Guess the data format from a picture: https://chat-ai.academiccloud.de/chat/eceb7fb0-2bee-48e8-8aff-4ede68111e53 (probably purged)
+
+### Image to MARC
+
+* given three webcam images of a book, create a MARC record
+
+![](static/2025-05-15-123901.jpg)
+![](static/2025-05-15-123925.jpg
+![](static/2025-05-15-123954.jpg)
+
+```
+=001  1234567890
+=008  190411s1996    gw     b    001    ger d
+=010  ##$a978-3-86533-XXX-X
+=020  ##$a3-86533-XXX-X
+=040  ##$aDE$bger$cDE
+=080  00$a331.709438$d20
+=100  1#$aBichler, Hans
+=245  10$aLandwirtschaft in der DDR$h[Text]$cvon Hans Bichler und Clemens Szamatolski
+=260  ##$a[Place of publication]$b[Publisher]$c1996
+=300  ##$a[Number of pages]$bIll.$c21 cm
+=500  ##$aZum Geleit von Rolf Heyen
+=504  ##$aIncludes bibliographical references and index
+=650  0#$aAgriculture$xGermany, East
+=650  0#$aAgricultural policy$xGermany, East
+=700  1#$aSzamatolski, Clemens
+=700  1#$aHeyen, Rolf
+=856  4#$u[URL of online resource, if available]
+```
+
+* https://chat-ai.academiccloud.de/chat/c4e1c9d8-41bd-4a36-b6ed-67caf1008699
 
 ### Wikipedia Dream
 
